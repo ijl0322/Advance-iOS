@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12118" systemVersion="16C68" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--InterfaceController-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="InterfaceController" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="spotSpotSpots_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="TCN-fx-HY4">
+                            <items>
+                                <tableRow identifier="default" id="rR6-rp-7Fi" customClass="LocationTableRowController" customModule="spotSpotSpots_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="pKV-ph-zQN">
+                                        <items>
+                                            <label width="121" height="32" alignment="left" text="Label" id="5Sd-cb-Arg"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="locationLabel" destination="5Sd-cb-Arg" id="fe2-Mx-zU2"/>
+                                        <segue destination="Sob-8h-6bW" kind="push" id="IcP-kh-WTP"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <label width="136" height="44" alignment="left" text="No Spots Nearby!" id="UWF-3L-EzE"/>
+                        <button width="1" alignment="left" title="Send Notification" id="Ajh-Hc-G5j">
+                            <connections>
+                                <action selector="sendData" destination="AgC-eL-Hgc" id="c7z-J2-ncg"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="locationInterfaceTable" destination="TCN-fx-HY4" id="SUl-4Z-K8g"/>
+                        <outlet property="noSpotsLabel" destination="UWF-3L-EzE" id="cbq-eO-Nic"/>
+                        <outlet property="sendNotificationButton" destination="Ajh-Hc-G5j" id="GLL-OU-uzg"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="New Spot Added!" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--mapInterfaceController-->
+        <scene sceneID="gsB-RB-FUg">
+            <objects>
+                <controller identifier="mapInterfaceController" id="Sob-8h-6bW" customClass="MapInterfaceController" customModule="spotSpotSpots_WatchKit_Extension">
+                    <items>
+                        <map height="103" alignment="left" id="cUr-bQ-VDz"/>
+                        <label width="1" height="45" alignment="left" text="Comment" id="Sqp-Dd-AdF"/>
+                        <group width="1" alignment="left" id="7I3-67-gSl">
+                            <items>
+                                <button width="0.5" alignment="left" title="Like" id="hd4-X9-Eoz">
+                                    <connections>
+                                        <action selector="locationLiked" destination="Sob-8h-6bW" id="uNx-Oz-UHJ"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="Dislike" id="HN9-jI-FCf">
+                                    <connections>
+                                        <action selector="locationDisliked" destination="Sob-8h-6bW" id="uQW-qE-Kp9"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="commentLabel" destination="Sqp-Dd-AdF" id="DvI-dF-0wY"/>
+                        <outlet property="map" destination="cUr-bQ-VDz" id="XJf-MG-VzI"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="346"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="spotSpotSpots_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="135" height="41" alignment="left" text="Label" id="Kor-j2-Bgy"/>
+                        <imageView width="1" height="100" alignment="left" image="location" contentMode="scaleAspectFill" id="Exa-53-kHw"/>
+                    </items>
+                    <connections>
+                        <outlet property="locationCommentLabel" destination="Kor-j2-Bgy" id="RjK-uh-qPl"/>
+                        <outlet property="locationImageVIew" destination="Exa-53-kHw" id="exm-2A-SbP"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="478" y="667"/>
+        </scene>
+    </scenes>
+</document>

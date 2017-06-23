@@ -1,0 +1,14 @@
+Notes: 
+
+============= Logo =============
+Polar Adventure Icy Text effect
+
+Base text: Ariel Black
+
+Layer1: Gradient Blue
+Layer2: text > liquify filer. Brush size: 100 
+layer3: copy of layer 2. Filter: Spatter, Overlay
+layer4: copy of layer 2. Filter: Plastic Wrap, Overlay
+
+A different version: 
+Cloud filter + Black border stroke + Gausian blur + Chrome filter, does not work as well as Spatter + Plastic Wrap

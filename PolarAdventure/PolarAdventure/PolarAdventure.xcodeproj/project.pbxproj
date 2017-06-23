@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E107CFF1E947E1A00978D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E107CFE1E947E1A00978D53 /* AppDelegate.swift */; };
+		0E107D011E947E1A00978D53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E107D001E947E1A00978D53 /* ViewController.swift */; };
+		0E107D041E947E1A00978D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E107D021E947E1A00978D53 /* Main.storyboard */; };
+		0E107D061E947E1A00978D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E107D051E947E1A00978D53 /* Assets.xcassets */; };
+		0E107D091E947E1A00978D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E107D071E947E1A00978D53 /* LaunchScreen.storyboard */; };
+		0E107D111E947EBB00978D53 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E107D101E947EBB00978D53 /* PageViewController.swift */; };
+		0E12243A1E99CB34006D8A47 /* Beluga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1224391E99CB34006D8A47 /* Beluga.swift */; };
+		0E22C5751E96985400E6D83F /* FishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22C5741E96985400E6D83F /* FishView.swift */; };
+		0E22C5771E96C5FB00E6D83F /* PageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22C5761E96C5FB00E6D83F /* PageTwoViewController.swift */; };
+		0E22C5791E96D4A300E6D83F /* PageThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22C5781E96D4A300E6D83F /* PageThreeViewController.swift */; };
+		0E22C57B1E96E21C00E6D83F /* PageFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22C57A1E96E21C00E6D83F /* PageFourViewController.swift */; };
+		0E22C57D1E96FA6B00E6D83F /* PageFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22C57C1E96FA6B00E6D83F /* PageFiveViewController.swift */; };
+		0E22C57F1E9701E900E6D83F /* PageSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22C57E1E9701E900E6D83F /* PageSixViewController.swift */; };
+		0E22C5811E970B7F00E6D83F /* PageSevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22C5801E970B7F00E6D83F /* PageSevenViewController.swift */; };
+		0E39F7D41E974EC6000963D9 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E39F7D31E974EC6000963D9 /* SnowView.swift */; };
+		0E3AEDE71E95820700BD59B9 /* AuthorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3AEDE51E95820700BD59B9 /* AuthorInfoViewController.swift */; };
+		0E3AEDE81E95820700BD59B9 /* AuthorInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E3AEDE61E95820700BD59B9 /* AuthorInfoViewController.xib */; };
+		0E3AEDEC1E958E0000BD59B9 /* Penguin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3AEDEB1E958E0000BD59B9 /* Penguin.swift */; };
+		0E3AEDEE1E958FEF00BD59B9 /* PageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3AEDED1E958FEF00BD59B9 /* PageOneViewController.swift */; };
+		0E3AEDF01E95BD2400BD59B9 /* Shark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3AEDEF1E95BD2400BD59B9 /* Shark.swift */; };
+		0E41439F1E9DA42400B1FB9B /* dizzy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E41439E1E9DA42300B1FB9B /* dizzy.mp3 */; };
+		0E4143A31E9DAABF00B1FB9B /* sharkAppear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E4143A21E9DAABF00B1FB9B /* sharkAppear.mp3 */; };
+		0E423EDD1E9C73CC007BDDC0 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E423EDC1E9C73CC007BDDC0 /* SettingsViewController.m */; };
+		0E62BD051E972F3D00688E92 /* SharedAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E62BD041E972F3D00688E92 /* SharedAudioPlayer.swift */; };
+		0E62BD071E972F6500688E92 /* crash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E62BD061E972F6500688E92 /* crash.mp3 */; };
+		0ECC30191EA00A0800122327 /* page1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30121EA00A0800122327 /* page1.plist */; };
+		0ECC301A1EA00A0800122327 /* page2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30131EA00A0800122327 /* page2.plist */; };
+		0ECC301B1EA00A0800122327 /* page3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30141EA00A0800122327 /* page3.plist */; };
+		0ECC301C1EA00A0800122327 /* page4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30151EA00A0800122327 /* page4.plist */; };
+		0ECC301D1EA00A0800122327 /* page5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30161EA00A0800122327 /* page5.plist */; };
+		0ECC301E1EA00A0800122327 /* page6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30171EA00A0800122327 /* page6.plist */; };
+		0ECC301F1EA00A0800122327 /* page7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30181EA00A0800122327 /* page7.plist */; };
+		0ECC30281EA00A5700122327 /* page1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30211EA00A5700122327 /* page1.mp3 */; };
+		0ECC30291EA00A5700122327 /* page2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30221EA00A5700122327 /* page2.mp3 */; };
+		0ECC302A1EA00A5700122327 /* page3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30231EA00A5700122327 /* page3.mp3 */; };
+		0ECC302B1EA00A5700122327 /* page4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30241EA00A5700122327 /* page4.mp3 */; };
+		0ECC302C1EA00A5700122327 /* page5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30251EA00A5700122327 /* page5.mp3 */; };
+		0ECC302D1EA00A5700122327 /* page6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30261EA00A5700122327 /* page6.mp3 */; };
+		0ECC302E1EA00A5700122327 /* page7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC30271EA00A5700122327 /* page7.mp3 */; };
+		0ECC30311EA00A9600122327 /* ReadToMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC30301EA00A9600122327 /* ReadToMe.swift */; };
+		0ECC30331EA025C500122327 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC30321EA025C500122327 /* Random.swift */; };
+		0EE3EA661E94A4540055A2C2 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3EA651E94A4540055A2C2 /* Size.swift */; };
+		0EEC5E781E98A05F00DF153F /* Narwhale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC5E771E98A05F00DF153F /* Narwhale.swift */; };
+		0EFA30C41E987BB9000DF0E5 /* ParentGateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA30C21E987BB9000DF0E5 /* ParentGateViewController.swift */; };
+		0EFA30C51E987BB9000DF0E5 /* ParentGateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFA30C31E987BB9000DF0E5 /* ParentGateViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E107CFB1E947E1A00978D53 /* PolarAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolarAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E107CFE1E947E1A00978D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E107D001E947E1A00978D53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E107D031E947E1A00978D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E107D051E947E1A00978D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E107D081E947E1A00978D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E107D0A1E947E1A00978D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E107D101E947EBB00978D53 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		0E1224391E99CB34006D8A47 /* Beluga.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beluga.swift; sourceTree = "<group>"; };
+		0E22C5741E96985400E6D83F /* FishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishView.swift; sourceTree = "<group>"; };
+		0E22C5761E96C5FB00E6D83F /* PageTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTwoViewController.swift; sourceTree = "<group>"; };
+		0E22C5781E96D4A300E6D83F /* PageThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageThreeViewController.swift; sourceTree = "<group>"; };
+		0E22C57A1E96E21C00E6D83F /* PageFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageFourViewController.swift; sourceTree = "<group>"; };
+		0E22C57C1E96FA6B00E6D83F /* PageFiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageFiveViewController.swift; sourceTree = "<group>"; };
+		0E22C57E1E9701E900E6D83F /* PageSixViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageSixViewController.swift; sourceTree = "<group>"; };
+		0E22C5801E970B7F00E6D83F /* PageSevenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageSevenViewController.swift; sourceTree = "<group>"; };
+		0E39F7D31E974EC6000963D9 /* SnowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
+		0E3AEDE51E95820700BD59B9 /* AuthorInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorInfoViewController.swift; sourceTree = "<group>"; };
+		0E3AEDE61E95820700BD59B9 /* AuthorInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthorInfoViewController.xib; sourceTree = "<group>"; };
+		0E3AEDEB1E958E0000BD59B9 /* Penguin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Penguin.swift; sourceTree = "<group>"; };
+		0E3AEDED1E958FEF00BD59B9 /* PageOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageOneViewController.swift; sourceTree = "<group>"; };
+		0E3AEDEF1E95BD2400BD59B9 /* Shark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shark.swift; sourceTree = "<group>"; };
+		0E41439E1E9DA42300B1FB9B /* dizzy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dizzy.mp3; sourceTree = "<group>"; };
+		0E4143A21E9DAABF00B1FB9B /* sharkAppear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sharkAppear.mp3; sourceTree = "<group>"; };
+		0E423EDB1E9C73CB007BDDC0 /* PolarAdventure-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PolarAdventure-Bridging-Header.h"; sourceTree = "<group>"; };
+		0E423EDC1E9C73CC007BDDC0 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0E423EDE1E9C74C7007BDDC0 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0E62BD041E972F3D00688E92 /* SharedAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedAudioPlayer.swift; sourceTree = "<group>"; };
+		0E62BD061E972F6500688E92 /* crash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crash.mp3; sourceTree = "<group>"; };
+		0ECC30121EA00A0800122327 /* page1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = page1.plist; sourceTree = "<group>"; };
+		0ECC30131EA00A0800122327 /* page2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = page2.plist; sourceTree = "<group>"; };
+		0ECC30141EA00A0800122327 /* page3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = page3.plist; sourceTree = "<group>"; };
+		0ECC30151EA00A0800122327 /* page4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = page4.plist; sourceTree = "<group>"; };
+		0ECC30161EA00A0800122327 /* page5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = page5.plist; sourceTree = "<group>"; };
+		0ECC30171EA00A0800122327 /* page6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = page6.plist; sourceTree = "<group>"; };
+		0ECC30181EA00A0800122327 /* page7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = page7.plist; sourceTree = "<group>"; };
+		0ECC30211EA00A5700122327 /* page1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = page1.mp3; sourceTree = "<group>"; };
+		0ECC30221EA00A5700122327 /* page2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = page2.mp3; sourceTree = "<group>"; };
+		0ECC30231EA00A5700122327 /* page3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = page3.mp3; sourceTree = "<group>"; };
+		0ECC30241EA00A5700122327 /* page4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = page4.mp3; sourceTree = "<group>"; };
+		0ECC30251EA00A5700122327 /* page5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = page5.mp3; sourceTree = "<group>"; };
+		0ECC30261EA00A5700122327 /* page6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = page6.mp3; sourceTree = "<group>"; };
+		0ECC30271EA00A5700122327 /* page7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = page7.mp3; sourceTree = "<group>"; };
+		0ECC30301EA00A9600122327 /* ReadToMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadToMe.swift; sourceTree = "<group>"; };
+		0ECC30321EA025C500122327 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		0EE3EA651E94A4540055A2C2 /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		0EEC5E771E98A05F00DF153F /* Narwhale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Narwhale.swift; sourceTree = "<group>"; };
+		0EFA30C21E987BB9000DF0E5 /* ParentGateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentGateViewController.swift; sourceTree = "<group>"; };
+		0EFA30C31E987BB9000DF0E5 /* ParentGateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentGateViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E107CF81E947E1A00978D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E107CF21E947E1A00978D53 = {
+			isa = PBXGroup;
+			children = (
+				0E107CFD1E947E1A00978D53 /* PolarAdventure */,
+				0E107CFC1E947E1A00978D53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E107CFC1E947E1A00978D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E107CFB1E947E1A00978D53 /* PolarAdventure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E107CFD1E947E1A00978D53 /* PolarAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				0E107CFE1E947E1A00978D53 /* AppDelegate.swift */,
+				0E107D001E947E1A00978D53 /* ViewController.swift */,
+				0E107D101E947EBB00978D53 /* PageViewController.swift */,
+				0E3AEDE51E95820700BD59B9 /* AuthorInfoViewController.swift */,
+				0E3AEDE61E95820700BD59B9 /* AuthorInfoViewController.xib */,
+				0EFA30C21E987BB9000DF0E5 /* ParentGateViewController.swift */,
+				0EFA30C31E987BB9000DF0E5 /* ParentGateViewController.xib */,
+				0E423EDC1E9C73CC007BDDC0 /* SettingsViewController.m */,
+				0E423EDE1E9C74C7007BDDC0 /* SettingsViewController.h */,
+				0E12243B1E99D5B7006D8A47 /* StoryElements */,
+				0E12243C1E99D5D6006D8A47 /* StoryPagesViewControllers */,
+				0ECC30101EA009A400122327 /* SupportingFiles */,
+				0E107D021E947E1A00978D53 /* Main.storyboard */,
+				0E107D051E947E1A00978D53 /* Assets.xcassets */,
+				0E107D071E947E1A00978D53 /* LaunchScreen.storyboard */,
+				0E107D0A1E947E1A00978D53 /* Info.plist */,
+				0E423EDB1E9C73CB007BDDC0 /* PolarAdventure-Bridging-Header.h */,
+			);
+			path = PolarAdventure;
+			sourceTree = "<group>";
+		};
+		0E12243B1E99D5B7006D8A47 /* StoryElements */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC30301EA00A9600122327 /* ReadToMe.swift */,
+				0ECC30321EA025C500122327 /* Random.swift */,
+				0E62BD041E972F3D00688E92 /* SharedAudioPlayer.swift */,
+				0E3AEDEB1E958E0000BD59B9 /* Penguin.swift */,
+				0E3AEDEF1E95BD2400BD59B9 /* Shark.swift */,
+				0EEC5E771E98A05F00DF153F /* Narwhale.swift */,
+				0E1224391E99CB34006D8A47 /* Beluga.swift */,
+				0EE3EA651E94A4540055A2C2 /* Size.swift */,
+				0E22C5741E96985400E6D83F /* FishView.swift */,
+				0E39F7D31E974EC6000963D9 /* SnowView.swift */,
+			);
+			name = StoryElements;
+			sourceTree = "<group>";
+		};
+		0E12243C1E99D5D6006D8A47 /* StoryPagesViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E3AEDED1E958FEF00BD59B9 /* PageOneViewController.swift */,
+				0E22C5761E96C5FB00E6D83F /* PageTwoViewController.swift */,
+				0E22C5781E96D4A300E6D83F /* PageThreeViewController.swift */,
+				0E22C57A1E96E21C00E6D83F /* PageFourViewController.swift */,
+				0E22C57C1E96FA6B00E6D83F /* PageFiveViewController.swift */,
+				0E22C57E1E9701E900E6D83F /* PageSixViewController.swift */,
+				0E22C5801E970B7F00E6D83F /* PageSevenViewController.swift */,
+			);
+			name = StoryPagesViewControllers;
+			sourceTree = "<group>";
+		};
+		0ECC30101EA009A400122327 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC302F1EA00A6400122327 /* ReadToMeSoundFiles */,
+				0ECC30201EA00A0F00122327 /* ReadToMePlist */,
+				0ECC30111EA009C800122327 /* SoundEffects */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0ECC30111EA009C800122327 /* SoundEffects */ = {
+			isa = PBXGroup;
+			children = (
+				0E4143A21E9DAABF00B1FB9B /* sharkAppear.mp3 */,
+				0E41439E1E9DA42300B1FB9B /* dizzy.mp3 */,
+				0E62BD061E972F6500688E92 /* crash.mp3 */,
+			);
+			name = SoundEffects;
+			sourceTree = "<group>";
+		};
+		0ECC30201EA00A0F00122327 /* ReadToMePlist */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC30121EA00A0800122327 /* page1.plist */,
+				0ECC30131EA00A0800122327 /* page2.plist */,
+				0ECC30141EA00A0800122327 /* page3.plist */,
+				0ECC30151EA00A0800122327 /* page4.plist */,
+				0ECC30161EA00A0800122327 /* page5.plist */,
+				0ECC30171EA00A0800122327 /* page6.plist */,
+				0ECC30181EA00A0800122327 /* page7.plist */,
+			);
+			name = ReadToMePlist;
+			sourceTree = "<group>";
+		};
+		0ECC302F1EA00A6400122327 /* ReadToMeSoundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC30211EA00A5700122327 /* page1.mp3 */,
+				0ECC30221EA00A5700122327 /* page2.mp3 */,
+				0ECC30231EA00A5700122327 /* page3.mp3 */,
+				0ECC30241EA00A5700122327 /* page4.mp3 */,
+				0ECC30251EA00A5700122327 /* page5.mp3 */,
+				0ECC30261EA00A5700122327 /* page6.mp3 */,
+				0ECC30271EA00A5700122327 /* page7.mp3 */,
+			);
+			name = ReadToMeSoundFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E107CFA1E947E1A00978D53 /* PolarAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E107D0D1E947E1A00978D53 /* Build configuration list for PBXNativeTarget "PolarAdventure" */;
+			buildPhases = (
+				0E107CF71E947E1A00978D53 /* Sources */,
+				0E107CF81E947E1A00978D53 /* Frameworks */,
+				0E107CF91E947E1A00978D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolarAdventure;
+			productName = PolarAdventure;
+			productReference = 0E107CFB1E947E1A00978D53 /* PolarAdventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E107CF31E947E1A00978D53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Isabel  Lee";
+				TargetAttributes = {
+					0E107CFA1E947E1A00978D53 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = K39564QAF6;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0E107CF61E947E1A00978D53 /* Build configuration list for PBXProject "PolarAdventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E107CF21E947E1A00978D53;
+			productRefGroup = 0E107CFC1E947E1A00978D53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E107CFA1E947E1A00978D53 /* PolarAdventure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E107CF91E947E1A00978D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECC301E1EA00A0800122327 /* page6.plist in Resources */,
+				0E107D091E947E1A00978D53 /* LaunchScreen.storyboard in Resources */,
+				0E107D061E947E1A00978D53 /* Assets.xcassets in Resources */,
+				0ECC301C1EA00A0800122327 /* page4.plist in Resources */,
+				0E41439F1E9DA42400B1FB9B /* dizzy.mp3 in Resources */,
+				0ECC302A1EA00A5700122327 /* page3.mp3 in Resources */,
+				0ECC30281EA00A5700122327 /* page1.mp3 in Resources */,
+				0E62BD071E972F6500688E92 /* crash.mp3 in Resources */,
+				0ECC302D1EA00A5700122327 /* page6.mp3 in Resources */,
+				0EFA30C51E987BB9000DF0E5 /* ParentGateViewController.xib in Resources */,
+				0ECC301D1EA00A0800122327 /* page5.plist in Resources */,
+				0ECC301F1EA00A0800122327 /* page7.plist in Resources */,
+				0E107D041E947E1A00978D53 /* Main.storyboard in Resources */,
+				0ECC302E1EA00A5700122327 /* page7.mp3 in Resources */,
+				0E3AEDE81E95820700BD59B9 /* AuthorInfoViewController.xib in Resources */,
+				0ECC302C1EA00A5700122327 /* page5.mp3 in Resources */,
+				0ECC302B1EA00A5700122327 /* page4.mp3 in Resources */,
+				0E4143A31E9DAABF00B1FB9B /* sharkAppear.mp3 in Resources */,
+				0ECC301A1EA00A0800122327 /* page2.plist in Resources */,
+				0ECC301B1EA00A0800122327 /* page3.plist in Resources */,
+				0ECC30291EA00A5700122327 /* page2.mp3 in Resources */,
+				0ECC30191EA00A0800122327 /* page1.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E107CF71E947E1A00978D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3AEDEC1E958E0000BD59B9 /* Penguin.swift in Sources */,
+				0E3AEDF01E95BD2400BD59B9 /* Shark.swift in Sources */,
+				0ECC30311EA00A9600122327 /* ReadToMe.swift in Sources */,
+				0E22C5771E96C5FB00E6D83F /* PageTwoViewController.swift in Sources */,
+				0E22C57F1E9701E900E6D83F /* PageSixViewController.swift in Sources */,
+				0E22C5811E970B7F00E6D83F /* PageSevenViewController.swift in Sources */,
+				0E22C5791E96D4A300E6D83F /* PageThreeViewController.swift in Sources */,
+				0E423EDD1E9C73CC007BDDC0 /* SettingsViewController.m in Sources */,
+				0E3AEDE71E95820700BD59B9 /* AuthorInfoViewController.swift in Sources */,
+				0EFA30C41E987BB9000DF0E5 /* ParentGateViewController.swift in Sources */,
+				0E62BD051E972F3D00688E92 /* SharedAudioPlayer.swift in Sources */,
+				0EE3EA661E94A4540055A2C2 /* Size.swift in Sources */,
+				0EEC5E781E98A05F00DF153F /* Narwhale.swift in Sources */,
+				0E3AEDEE1E958FEF00BD59B9 /* PageOneViewController.swift in Sources */,
+				0E39F7D41E974EC6000963D9 /* SnowView.swift in Sources */,
+				0E22C57B1E96E21C00E6D83F /* PageFourViewController.swift in Sources */,
+				0E22C5751E96985400E6D83F /* FishView.swift in Sources */,
+				0E12243A1E99CB34006D8A47 /* Beluga.swift in Sources */,
+				0E107D111E947EBB00978D53 /* PageViewController.swift in Sources */,
+				0E107D011E947E1A00978D53 /* ViewController.swift in Sources */,
+				0ECC30331EA025C500122327 /* Random.swift in Sources */,
+				0E107CFF1E947E1A00978D53 /* AppDelegate.swift in Sources */,
+				0E22C57D1E96FA6B00E6D83F /* PageFiveViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E107D021E947E1A00978D53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E107D031E947E1A00978D53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E107D071E947E1A00978D53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E107D081E947E1A00978D53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E107D0B1E947E1A00978D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E107D0C1E947E1A00978D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E107D0E1E947E1A00978D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K39564QAF6;
+				INFOPLIST_FILE = PolarAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "isabel-Lee.PolarAdventure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PolarAdventure/PolarAdventure-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0E107D0F1E947E1A00978D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = K39564QAF6;
+				INFOPLIST_FILE = PolarAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "isabel-Lee.PolarAdventure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PolarAdventure/PolarAdventure-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E107CF61E947E1A00978D53 /* Build configuration list for PBXProject "PolarAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E107D0B1E947E1A00978D53 /* Debug */,
+				0E107D0C1E947E1A00978D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E107D0D1E947E1A00978D53 /* Build configuration list for PBXNativeTarget "PolarAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E107D0E1E947E1A00978D53 /* Debug */,
+				0E107D0F1E947E1A00978D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E107CF31E947E1A00978D53 /* Project object */;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="customView" customModule="spotSpotSpots" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Like" translatesAutoresizingMaskIntoConstraints="NO" id="ay0-No-Woq">
+                    <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.49657193020000001" green="0.97380253689999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ay0-No-Woq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="4Vg-V2-OrF"/>
+                <constraint firstItem="ay0-No-Woq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5u9-WI-Rkq"/>
+                <constraint firstItem="ay0-No-Woq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8yq-Db-Bup"/>
+                <constraint firstItem="ay0-No-Woq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BoR-7G-QqY"/>
+                <constraint firstAttribute="trailing" secondItem="ay0-No-Woq" secondAttribute="trailing" id="QCc-S6-puj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="locationImageView" destination="ay0-No-Woq" id="eQp-q4-Xpy"/>
+            </connections>
+            <point key="canvasLocation" x="-23" y="39"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Like" width="96" height="96"/>
+    </resources>
+</document>
